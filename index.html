@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather APP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    
+    <div class="mainbox">
+    <div class="searchbox">
+        <input type="search" class="searchin" id="searchin" required placeholder="Search Country or City">
+        <button class="searchicon"  onclick="returnWeather()" id="searchicon"><i class="fa-solid fa-magnifying-glass" ></i></button>
+
+
+    </div>
+    <div class="weatherbox">
+        <div  class="country" id="country"> 
+            Weather in Tokyo
+        </div>
+       
+        <div class="degree"> 26.52 C</div>
+        <div class="flex">
+            <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" />
+            <div class="description">Cloudy</div>
+          </div>
+        <div class="humidity">Humidity: 90%
+
+
+        </div>
+        <div class="windspeed">Windspeed: 45 Km/hr
+            
+
+        </div>
+
+      
+
+
+
+    </div>
+</div>
+ <script src="script.js"></script>
+</body>
+</html>
